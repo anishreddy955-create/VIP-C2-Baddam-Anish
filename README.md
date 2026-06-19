@@ -1,4 +1,4 @@
-# ✦ AuraCart — Premium MERN E-Commerce
+# ✦ OneCart — Premium MERN E-Commerce
 
 A modern, glassmorphic e-commerce platform built with **MongoDB · Express · React · Node.js**.
 
@@ -7,7 +7,7 @@ A modern, glassmorphic e-commerce platform built with **MongoDB · Express · Re
 ## 📁 Project Structure
 
 ```
-AuraCart/
+OneCart/
 ├── backend/
 │   ├── config/db.js              # MongoDB connection + graceful fallback
 │   ├── controllers/
@@ -46,6 +46,7 @@ AuraCart/
     │   │   └── AdminDashboard.jsx # Stats / orders / products / add product
     │   ├── utils/api.js           # Fetch wrapper with auth headers
     │   ├── App.jsx                # Routes + layout guards
+    │   └── index.css              # CSS variables, glassmorphic design system
     │   └── index.css              # CSS variables, glassmorphic design system
     ├── index.html
     └── vite.config.js             # Dev proxy → localhost:5000
@@ -86,7 +87,7 @@ Open **http://localhost:3000**
 
 | Field    | Value              |
 |----------|--------------------|
-| Email    | admin@aura.com     |
+| Email    | admin@onecart.com     |
 | Password | admin123           |
 
 ---
